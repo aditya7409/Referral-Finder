@@ -201,7 +201,7 @@ app.post("/resetpassword", async (req, res) => {
                 to: userData.email,
                 from: "noreplyrefferalfinder@gmail.com",
                 subject: "PassWord Reset",
-                html: `<p><a href="https://refferal-finder.herokuapp.com/resetpass/${token}">Link</a> Reset Password,it will only be valid for 1 hr</p>`
+                html: `<p><a href="https://referralfinder.herokuapp.com/resetpass/${token}">Link</a> Reset Password,it will only be valid for 1 hr</p>`
             })
             res.render('index', {
                 message: "Password Reset Link Sent to email",
