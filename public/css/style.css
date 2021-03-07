@@ -70,7 +70,14 @@ a {
 #alerttype {
 	animation: autoHide 0s ease-in 4s forwards;
 }
-
+#flpkrtimg{
+	margin-left: 2.6vw;
+    height: 17vh;
+    width: 11vw;
+  }
+  #fbimg{
+    height: 17vh;
+  }
 @keyframes autoHide {
 	to {
 		width:0;
@@ -98,6 +105,16 @@ a {
 	#partimg{
 		width: 94vw !important;
 
+	}
+	#flpkrtimg{
+		margin-left: 24.6vw !important;
+		height: 17vh !important;
+		width: 41vw !important;
+	}
+	#fbimg{
+		margin-left: 24.6vw !important;
+		height: 17vh !important;
+		width: 41vw !important;
 	}
   }
   /* .card:hover{
